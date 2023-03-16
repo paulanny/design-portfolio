@@ -12,7 +12,8 @@
   .desslides    {
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
     justify-content: center;
     margin-top: 8em;
   }
@@ -35,6 +36,12 @@
     margin-bottom: 8em;
   }
 
+  div .kaapitdes    {
+    align-items: center;
+    display: flex;
+    margin:auto;
+  }
+
 
   .selecteddesp     {
     text-align: center;
@@ -45,3 +52,9 @@
     margin: 20px auto 40px auto;
   }
   
+
+  .otherdes        {
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: auto;
+  }
