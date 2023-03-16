@@ -119,6 +119,10 @@ header {
     color: rgb(24, 2, 47);
 }
 
+.viewbtn a  {
+  text-decoration: none;
+}
+
 .viewshotabtn   {
   background-color: #d6d93b;
     display: flex;
