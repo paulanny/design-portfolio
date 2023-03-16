@@ -7,15 +7,22 @@
 .projectimgkg {
     width: 50%;
   }
-  
-
   .desslides    {
     margin: auto;
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
     justify-content: center;
-    margin-top: 8em;
+    margin-top: 5em;
+  }
+
+  .desslides1    {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin-top: 15em;
   }
   .projectimgkg img {
     width: 100%;
@@ -57,4 +64,9 @@
     display: flex;
     /* flex-wrap: wrap; */
     margin: auto;
+  }
+
+  .desdiv   {
+    margin-top: 60px;
+    margin-bottom: 20px;
   }
