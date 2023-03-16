@@ -12,6 +12,7 @@
   .desslides    {
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 8em;
   }
@@ -32,5 +33,15 @@
   .kaapitdes    {
     width: 90%;
     margin-bottom: 8em;
+  }
+
+
+  .selecteddesp     {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: blueviolet;
+    font-weight: 400;
+    margin: 20px auto 40px auto;
   }
   
