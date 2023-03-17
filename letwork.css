@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.letwork {
+  display: flex;
+  min-height: 2px;
+  align-items: flex-end;
+  /* flex-wrap: wrap; */
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+.letwork p {
+  color: white;
+  font-family: "raleway", sans-serif;
+
+  letter-spacing: 0.08em;
+  /* padding: 0px 20px; */
+}
+
+.letworksmallp {
+  font-size: 20px;
+  line-height: 219.2%;
+  width: 65%;
+}
+
+.letworkbigp {
+  width: 45%;
+
+  font-size: 55px;
+  font-weight: 800;
+  line-height: 140.2%;
+}
+
+.sendmessage {
+    width: 43%;
+    display: flex;
+    min-height: 2px;
+    align-items: flex-end;
+    height: 72px;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+
+.arrowimg img {
+  height: 72px;
+  margin-right: 20px;
+}
