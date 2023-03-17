@@ -1,5 +1,5 @@
-body    {
-    background-color: rgb(24, 2, 47);
+body {
+  background-color: rgb(24, 2, 47);
 }
 
 * {
@@ -11,15 +11,17 @@ header {
   background-color: rgb(23, 15, 46);
 }
 
+
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 15px 55px;
 }
 
 .logoimg {
-  width: 40px;
+  width: 60px;
   /* padding: 30px; */
 }
 
@@ -42,7 +44,7 @@ header {
 .navbara a {
   display: block;
   padding: 15px;
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Raleway", sans-serif;
   /* background-color: #dddddd; */
   cursor: pointer;
@@ -87,10 +89,10 @@ header {
   margin-left: 129px;
 }
 
-.bigp   {
+.bigp {
   color: white;
   font-size: 35px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-family: 800;
 }
 .projstory {
@@ -101,7 +103,7 @@ header {
   margin-top: 24px;
   margin-bottom: 3em;
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .abtproj {
@@ -110,32 +112,68 @@ header {
   padding-bottom: 48px;
 }
 
-.viewshotp    {
+.viewshotp {
   font-size: 16px;
-    font-weight: 600;
-    margin-right: 4px;
-    margin-top: 0px !important;
-    line-height: unset !important;
-    color: rgb(24, 2, 47);
+  font-weight: 600;
+  margin-right: 4px;
+  margin-top: 0px !important;
+  line-height: unset !important;
+  color: rgb(24, 2, 47);
 }
 
-.viewbtn a  {
+.viewbtn a {
   text-decoration: none;
 }
 
-.viewshotabtn   {
+.viewshotabtn {
   background-color: #d6d93b;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    min-height: 2px;
-    -webkit-box-align: center;
-    align-items: center;
-    width: 120px;
-    height: 50px;
-    outline: none;
-    border: none;
-    position: relative;
-    cursor: pointer;
-    border-radius: 5px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  min-height: 2px;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 120px;
+  height: 50px;
+  outline: none;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.bannersection    {
+  width: 100%;
+  
+
+}
+
+
+.deetndimg  {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+}
+
+.selfdetails    {
+  width: 50%;
+  font-family: 'raleway', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 219.2%;
+  letter-spacing: 0.08em;
+  margin-top: 24px;
+  margin-bottom: 3em;
+  color: white;
+}
+
+.headimg  {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.headimg img {
+  width: 100%;
 }

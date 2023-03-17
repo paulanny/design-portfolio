@@ -1,72 +1,75 @@
-*       {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .projectimgkg {
-    width: 50%;
-  }
-  .desslides    {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-    margin-top: 5em;
-  }
+  width: 50%;
+}
+.desslides {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  margin-top: 5em;
+  max-width: 50%;
+}
 
-  .desslides1    {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-    margin-top: 15em;
-  }
-  .projectimgkg img {
-    width: 100%;
-    object-fit: cover;
-    height: 400px;
-    background-size: cover;
-    background-position: 50% center;
-    object-position: left top;
-    display: flex;
-    /* position: absolute;
+.desslides1 {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  margin-top: 15em;
+  max-width: 50%;
+}
+.projectimgkg img {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+  background-size: cover;
+  background-position: 50% center;
+  object-position: left top;
+  display: flex;
+  /* position: absolute;
       left: 0;
       bottom: 0; */
-    /* margin-left: 129px; */
-  }
+  margin-left: 129px;
+}
 
-  .kaapitdes    {
-    width: 90%;
-    margin-bottom: 8em;
-  }
+/* .kaapitdes    {
+    
+  } */
 
-  div .kaapitdes    {
-    align-items: center;
-    display: flex;
-    margin:auto;
-  }
+div .kaapitdes {
+  align-items: center;
+  display: flex;
+  margin: auto;
+  width: 90%;
+  border: 3px solid rgba(150, 140, 127, 0.3);
+  border-radius: 7px;
+  /* margin-bottom: 8em; */
+}
 
+.selecteddesp {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: rgba(150, 140, 127, 0.3);
+  font-weight: 600;
+  margin: 47px auto 65px auto;
+}
 
-  .selecteddesp     {
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    color: blueviolet;
-    font-weight: 400;
-    margin: 20px auto 40px auto;
-  }
-  
+.otherdes {
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin: auto;
+}
 
-  .otherdes        {
-    display: flex;
-    /* flex-wrap: wrap; */
-    margin: auto;
-  }
-
-  .desdiv   {
-    margin-top: 60px;
-    margin-bottom: 20px;
-  }
+.desdiv {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
