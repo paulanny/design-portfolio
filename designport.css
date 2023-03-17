@@ -11,6 +11,13 @@ header {
   background-color: rgb(23, 15, 46);
 }
 
+.allprojects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
 
 
 .navbar {
@@ -154,6 +161,7 @@ header {
   align-items: center;
   margin: auto;
   display: flex;
+  padding: 20px 50px;
 }
 
 .selfdetails    {
@@ -173,7 +181,13 @@ header {
   justify-content: center;
   align-items: center;
   width: 50%;
+  display: flex;
 }
 .headimg img {
-  width: 100%;
+  width: 50%;
+}
+
+.detailsp   {
+  width: 90%;
+  margin: auto;
 }
