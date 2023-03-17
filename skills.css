@@ -62,8 +62,8 @@
   .toolicons img {
     width: 50%;
     height: 50%;
-    /* border: 3px solid rgba(150, 140, 127, 0.3);
-    border-radius: 50%; */
+    border: 3px solid rgba(150, 140, 127, 0.3);
+    border-radius: 50%;
     margin-bottom: 20px;
   }
 

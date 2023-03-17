@@ -209,7 +209,7 @@ header {
   margin-top: 40px;
 }
 .learnimg img   {
-  width: 15%;
+  max-width: 150px;
   justify-content: flex-end;
   margin-top: -51px;
     margin-left: 20px;
@@ -220,6 +220,7 @@ header {
   color: #d6d93b;
   text-decoration: none;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .learningp  {
