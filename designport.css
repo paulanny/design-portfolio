@@ -185,7 +185,7 @@ header {
   display: flex;
 }
 .headimg img {
-  width: 50%;
+  width: 70%;
 }
 
 .bigintro   {
@@ -201,4 +201,27 @@ header {
 .detailsp   {
  
   margin-top: 50px;
+}
+
+
+.learnimg   {
+  display: flex;
+  margin-top: 40px;
+}
+.learnimg img   {
+  width: 15%;
+  justify-content: flex-end;
+  margin-top: -51px;
+    margin-left: 20px;
+
+}
+
+.abouta   {
+  color: #d6d93b;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.learningp  {
+  font-size: 15px;
 }
