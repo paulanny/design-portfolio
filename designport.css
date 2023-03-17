@@ -225,3 +225,24 @@ header {
 .learningp  {
   font-size: 15px;
 }
+
+.selectedptxt   {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 0px 60px;
+}
+
+.selectwhite     {
+  font-weight: 700;
+  font-family: 'raleway', sans-serif;
+  font-size: 18px;
+  color: white;
+ 
+}
+  
+  .dimselect     {
+    font-weight: 800;
+    font-family: 'raleway', sans-serif;
+    font-size: 90px;
+    color: rgba(155, 138, 171, 0.3);
+  }
