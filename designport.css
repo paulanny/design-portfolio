@@ -1,5 +1,6 @@
 body {
   background-color: rgb(24, 2, 47);
+  
 }
 
 * {
@@ -8,7 +9,10 @@ body {
   padding: 0;
 }
 header {
-  background-color: rgb(23, 15, 46);
+  /* background-color: rgb(23, 15, 46); */
+  width: 100%;
+  /* position: fixed; */
+
 }
 
 .allprojects {
@@ -24,8 +28,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 55px;
+  padding: 20px 70px;
+  
 }
+
+/* .navbar::-webkit-scrollbar {
+  display: none;
+} */
 
 .logoimg {
   width: 60px;
@@ -55,8 +64,10 @@ header {
   font-family: "Raleway", sans-serif;
   /* background-color: #dddddd; */
   cursor: pointer;
-  border: 1px solid rgb(23, 15, 46);
+  /* border: 1px solid rgb(23, 15, 46); */
   border-radius: 7px;
+  text-decoration: none;
+  color: white;
 }
 
 .navbara a:hover {
