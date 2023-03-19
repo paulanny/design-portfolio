@@ -585,3 +585,37 @@ header {
   margin-left: 85px;
 }
 }
+
+@media (max-width:450px) {
+  .bigintro {
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+    margin: 30px 0px;
+
+}
+
+.projectimg img {
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+  background-size: cover;
+  background-position: 50% center;
+  object-position: left top;
+  display: flex;
+  margin-left: 55px;
+}
+.bigp {
+  color: white;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-family: 800;
+}
+.bigp {
+  color: white;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+
+}
+}

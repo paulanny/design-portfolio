@@ -151,6 +151,15 @@
     align-items: center;
 }
 
+.toolspane {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 40px auto 30px auto;
+  align-items: center;
+  padding: 0px 50px;
+}
+
 .toolsp {
   color: white;
   font-family: 'raleway', sans-serif;
