@@ -130,3 +130,34 @@
 
 
   }
+
+  @media (max-width:500px) {
+    /* .toolsp {
+      color: white;
+      font-family: 'raleway', sans-serif;
+      font-size: 18px;
+      width: 100%;
+      line-height: 219.2%;
+      letter-spacing: 0.08em;
+      padding: 0px 3px;
+  } */
+
+  .toolicons {
+    width: 35%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolsp {
+  color: white;
+  font-family: 'raleway', sans-serif;
+  font-size: 14px;
+  width: 100%;
+  line-height: 219.2%;
+  letter-spacing: 0.08em;
+  padding: 0px 3px;
+}
+  }
