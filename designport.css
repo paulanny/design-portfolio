@@ -369,17 +369,35 @@ header {
     display: none;
   }
 
-  .selfdetails {
+
+  .projectimg {
     width: 100%;
-    font-family: 'raleway', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 219.2%;
-    letter-spacing: 0.08em;
-    margin-top: 24px;
-    margin-bottom: 3em;
-    color: white;
-    padding: 0px 55px;
+}
+  .selfdetails {
+ 
+      width: 100%;
+      font-family: 'raleway', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 219.2%;
+      letter-spacing: 0.08em;
+      margin-top: 24px;
+      margin-bottom: 3em;
+      color: white;
+      padding: 0px 20px;
+      /* text-align: center; */
+  }
+
+  .learnimg img {
+    max-width: 150px;
+    justify-content: flex-end;
+    margin-top: -30px;
+    margin-left: 20px;
+    height: 75px;
+}
+
+.learningp {
+  font-size: 18px;
 }
 .deetndimg {
   justify-content: center;
@@ -419,6 +437,34 @@ header {
   padding-right: 48px;
   padding-bottom: 48px;
 }
+
+.projectimg img {
+  width: 100%;
+  object-fit: cover;
+  height: 381px;
+  background-size: cover;
+  background-position: 50% center;
+  object-position: left top;
+  display: flex;
+  margin-left: 95px;
+  /* margin-right: -2px; */
+}
+
+/* .projndpics2 {
+  background: rgb(24, 2, 47);
+  border: 1px solid rgba(150, 140, 127, 0.3);
+  border-radius: 16px;
+  padding: 48px 0px 0px 48px;
+  display: flex;
+  flex-direction: column;
+  margin: 32px auto;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  min-height: 2px;
+  align-items: flex-end;
+  width: 100%;
+  overflow: hidden;
+} */
 }
 
   
