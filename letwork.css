@@ -200,7 +200,7 @@ footer  {
 }
 
 
-@media (max-width:750px) {
+@media (max-width:1000px) {
   .tributendsocials {
     margin-top: 50px;
     display: flex;

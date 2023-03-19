@@ -53,7 +53,7 @@
 }
 
 
-@media (max-width:750px) {
+@media (max-width:1000px) {
   .projndpics2 {
     background: rgb(24, 2, 47);
     border: 1px solid rgba(150, 140, 127, 0.3);
