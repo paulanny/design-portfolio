@@ -409,11 +409,12 @@ header {
 }
 
 .headimg {
-  margin: auto;
+  /* margin: auto;
   justify-content: center;
   align-items: center;
   width: 80%;
-  display: flex;
+  display: flex; */
+  display: none;
 }
 
 .projndpics {

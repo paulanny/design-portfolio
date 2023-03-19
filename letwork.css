@@ -219,6 +219,49 @@ footer  {
   height: 1px;
   background: rgba(255, 255, 255, 0.25);
   width: 80%;
-  margin: 5em auto 30px auto;
+  margin: 1em auto 30px auto;
+}
+
+.letwork {
+  display: flex;
+  flex-direction: column;
+  min-height: 2px;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 0px 50px;
+  margin-top: 30px;
+  background: linear-gradient(rgb(32, 5, 60) 38.12%, rgba(24, 2, 47, 0) 80.43%);
+  padding: 3.5em 5em 56px;
+  border-radius: 24px;
+}
+
+.letworksmallp {
+  font-size: 20px;
+  line-height: 219.2%;
+  width: 100%;
+  color: white;
+  font-family: "raleway", sans-serif;
+  letter-spacing: 0.08em;
+  margin-top: 1.5em;
+  margin-bottom: 50px;
+}
+
+.letworkbigp {
+  width: 100%;
+  --bg-size: 400%;
+  background: linear-gradient( 90deg, #d6d93b, #ffffff, #d6d93b ) 0 0 / var(--bg-size) 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* color: white; */
+  font-family: "raleway", sans-serif;
+  letter-spacing: 0.08em;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 140.2%;
+  animation: move-bg 8s infinite linear;
 }
 }
