@@ -155,7 +155,7 @@ header {
   min-height: 2px;
   -webkit-box-align: center;
   align-items: center;
-  width: 120px;
+  width: 160px;
   height: 50px;
   outline: none;
   border: none;
@@ -184,7 +184,7 @@ header {
     left: 0px;
     top: 0px;
     bottom: 0px;
-    width: 120px;
+    width: 160px;
     height: 50px;
     background: rgba(214, 217, 59, 0.27);
     border-radius: 5px;
@@ -293,3 +293,132 @@ header {
     font-size: 90px;
     color: rgba(155, 138, 171, 0.3);
   }
+
+  .arrowimg img {
+    height: 72px;
+    margin-right: 48px;
+  }
+  
+  .shotarrow  {
+    display: flex;
+    margin-left: 10px
+  }
+  
+  
+  .shotarrow img    {
+    width: 10px;
+    display: block;
+    stroke: currentcolor;
+    color: rgb(214, 217, 59);
+    height: 20px;
+  }
+
+   
+  .shotarrow img:first-child{  
+  animation-name: firsts;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-right: 3px;
+  }
+
+
+  .shotarrow img:last-child
+{
+  animation-name: seconds;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes firsts {
+  
+  0% {
+    opacity: 1;
+  }
+  
+  50% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 0.7;
+  }
+
+  
+}
+
+@keyframes seconds {
+  
+  100% {
+    opacity: 1;
+  }
+  
+  0% {
+    opacity: 0.7;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  
+}
+
+
+@media (max-width:750px) {
+  .navbarul   {
+    display: none;
+  }
+
+  .selfdetails {
+    width: 100%;
+    font-family: 'raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 219.2%;
+    letter-spacing: 0.08em;
+    margin-top: 24px;
+    margin-bottom: 3em;
+    color: white;
+    padding: 0px 55px;
+}
+.deetndimg {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  padding: 20px 50px;
+  flex-direction: column-reverse;
+}
+
+.headimg {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  display: flex;
+}
+
+.projndpics {
+  background: rgb(24, 2, 47);
+  border: 1px solid rgba(150, 140, 127, 0.3);
+  border-radius: 16px;
+  padding: 48px 0px 0px 48px;
+  display: flex;
+  flex-direction: column;
+  margin: 32px auto;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  min-height: 2px;
+  align-items: flex-end;
+  width: 95%;
+  overflow: hidden;
+}
+
+.abtproj {
+  width: 100%;
+  padding-right: 48px;
+  padding-bottom: 48px;
+}
+}
+
+  

@@ -37,13 +37,30 @@
 }
 
 .letworkbigp {
-  width: 45%;
-  color: white;
+  width: 75%;
+  --bg-size: 400%;
+  background: linear-gradient(
+                90deg,
+                #d6d93b,
+                #ffffff,
+                #d6d93b
+              ) 0 0 / var(--bg-size) 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* color: white; */
   font-family: "raleway", sans-serif;
   letter-spacing: 0.08em;
-  font-size: 50px;
+  font-size: 46px;
   font-weight: 800;
   line-height: 140.2%;
+  animation: move-bg 8s infinite linear;
+}
+
+@keyframes move-bg {
+  to {
+    background-position: var(--bg-size) 0;
+  }
 }
 
 .sendmessage {
@@ -54,11 +71,6 @@
     height: 72px;
     -webkit-box-pack: end;
     justify-content: flex-end;
-}
-
-.arrowimg img {
-  height: 72px;
-  margin-right: 48px;
 }
 
 
@@ -85,7 +97,7 @@
   min-height: 2px;
   -webkit-box-align: center;
   align-items: center;
-  width: 150px;
+  width: 165px;
   height: 50px;
   outline: none;
   border: none;
@@ -114,7 +126,7 @@
     left: 0px;
     top: 0px;
     bottom: 0px;
-    width: 150px;
+    width: 165px;
     height: 50px;
     background: rgba(214, 217, 59, 0.27);
     border-radius: 5px;
@@ -125,9 +137,10 @@
 .horizontaldiv  {
   height: 1px;
     background: rgba(255, 255, 255, 0.25);
-    width: 100%;
-    margin-top: 5em;
-    margin-bottom: 30px;
+    width: 90%;
+    margin: 5em auto 30px auto;
+    /* margin-top: 5em;
+    margin-bottom: 30px; */
 
 }
 
@@ -151,6 +164,7 @@ footer  {
     justify-content: center;
     align-items: center;
     background-color: #20053B;
+    cursor: pointer;
 }
 
 .divsoc img  {
@@ -178,4 +192,9 @@ footer  {
   align-items: center;
   padding: 0px 60px;
   margin-bottom: 30px;
+}
+
+.soca     {
+  text-decoration: none;
+  cursor: pointer;
 }
