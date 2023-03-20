@@ -87,6 +87,13 @@
     width: 100%;
     overflow: hidden;
 }
+
+.allprojects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 12px;
+}
 }
 
 
