@@ -393,3 +393,118 @@ footer {
   border-radius: 5px;
 }
 }
+
+@media (max-width:380px) {
+  .tributendsocials {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.arrowimg img {
+  height: 30px;
+  margin-right: 18px;
+}
+
+.viewshotabtnlg {
+  background-color: transparent;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  min-height: 2px;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 125px;
+  height: 50px;
+  outline: none;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.viewshotplg {
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 4px;
+  margin-top: 0px !important;
+  line-height: unset !important;
+  color: #d6d93b;
+}
+
+.shotarrow img {
+width: 7px;
+display: block;
+stroke: currentcolor;
+color: rgb(214, 217, 59);
+height: 20px;
+}
+
+.letworkbigp {
+  width: 100%;
+  --bg-size: 400%;
+  background: linear-gradient( 90deg, #d6d93b, #ffffff, #d6d93b ) 0 0 / var(--bg-size) 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* color: white; */
+  font-family: "raleway", sans-serif;
+  letter-spacing: 0.08em;
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 140.2%;
+  animation: move-bg 8s infinite linear;
+}
+
+.letworksmallp {
+  font-size: 13px;
+  line-height: 219.2%;
+  width: 100%;
+  color: white;
+  font-family: "raleway", sans-serif;
+  letter-spacing: 0.08em;
+  margin-top: 1.5em;
+  margin-bottom: 50px;
+}
+}
+
+@media (max-width:290px) {
+  .viewshotplg {
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 4px;
+    margin-top: 0px !important;
+    line-height: unset !important;
+    color: #d6d93b;
+}
+
+.shotarrow img {
+  width: 7px;
+  display: block;
+  stroke: currentcolor;
+  color: rgb(214, 217, 59);
+  height: 20px;
+}
+
+.divsoc {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #20053B;
+  border-radius: 50%;
+  padding: 7px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #20053B;
+  cursor: pointer;
+}
+
+.divsoc img {
+  width: 15px;
+}
+}

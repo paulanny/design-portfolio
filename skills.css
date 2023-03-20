@@ -178,3 +178,15 @@
   letter-spacing: 0.0em;
 }
   }
+
+
+  @media (max-width:390px) {
+    .toolicons {
+      width: 45%;
+      margin: 25px auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  }
