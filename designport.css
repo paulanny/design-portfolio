@@ -686,6 +686,14 @@ header {
   font-weight: 800;
 
 }
+.detailsp   {
+  font-size: 14px;
+}
+
+.learningp {
+  font-size: 14px;
+}
+
 }
 
 @media (max-width:290px) {
