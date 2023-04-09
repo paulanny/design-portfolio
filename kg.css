@@ -147,6 +147,33 @@ div .kaapitdes {
     color: white;
     font-family: "Raleway", sans-serif;
   }
+
+  .desslides {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin-top: 5em;
+    max-width: 100%;
+}
+
+  .otherdes {
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: auto;
+    flex-direction: column;
+}
+
+  .desslides1 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin-top: 0em;
+    max-width: 100%;
+}
 }
 
 @media (max-width:450px) {
